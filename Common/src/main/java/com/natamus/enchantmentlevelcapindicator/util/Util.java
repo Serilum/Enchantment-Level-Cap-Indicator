@@ -4,6 +4,7 @@ import com.mojang.datafixers.util.Pair;
 import com.natamus.collective.functions.NumberFunctions;
 import com.natamus.enchantmentlevelcapindicator.config.ConfigHandler;
 import net.minecraft.ChatFormatting;
+import net.minecraft.ResourceLocationException;
 import net.minecraft.core.Registry;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
@@ -22,7 +23,14 @@ public class Util {
         }
 
         String rawEnchantment = rawEnchSpl[1].split("'")[0];
-		ResourceLocation enchantmentResourceLocation = ResourceLocation.parse(rawEnchantment.replace(".", ":"));
+
+		ResourceLocation enchantmentResourceLocation;
+		try {
+			enchantmentResourceLocation = ResourceLocation.parse(rawEnchantment.replace(".", ":"));
+		}
+		catch (ResourceLocationException ex) {
+			return null;
+		}
 
 		int level = 1;
 		if (rawEnchSpl.length > 2) {
