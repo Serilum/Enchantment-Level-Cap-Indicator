@@ -6,7 +6,7 @@ logoFile="icon.png"
 
 [[mods]]
 modId="enchantmentlevelcapindicator"
-version="1.0"
+version="1.1"
 displayName="Enchantment Level Cap Indicator"
 displayURL="https://serilum.com/mod/enchantment-level-cap-indicator"
 authors="Rick South"
@@ -23,7 +23,7 @@ If you would like to contribute too, check out https://serilum.com/donate. Appre
     modId="collective"
     type="required"
     mandatory=true
-    versionRange="[7.92,)"
+    versionRange="[7.93,)"
     ordering="NONE"
     side="BOTH"
 
