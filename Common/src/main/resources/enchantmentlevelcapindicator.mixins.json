@@ -4,10 +4,9 @@
   "package": "com.natamus.enchantmentlevelcapindicator.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "ItemStackMixin"
+    "EnchantmentMixin"
   ],
   "client": [
-    "EnchantmentScreenMixin"
   ],
   "server": [
   ],

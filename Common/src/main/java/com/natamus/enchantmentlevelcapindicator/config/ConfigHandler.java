@@ -12,8 +12,6 @@ public class ConfigHandler extends DuskConfig {
 
 	@Entry public static String maxLevelSymbol = "⭐";
 	@Entry(min = 0, max = 15) public static int maxLevelSymbolColourIndex = 6;
-	@Entry public static boolean showSymbolInItemTooltip = true;
-	@Entry public static boolean showSymbolInEnchantmentTable = true;
 
 	public static void initConfig() {
 		configMetaData.put("maxLevelSymbol", Arrays.asList(
@@ -21,12 +19,6 @@ public class ConfigHandler extends DuskConfig {
 		));
 		configMetaData.put("maxLevelSymbolColourIndex", Arrays.asList(
 			"The colour index value used for the max level symbol. Possible values; 0: black, 1: dark_blue, 2: dark_green, 3: dark_aqua, 4: dark_red, 5: dark_purple, 6: gold, 7: gray, 8: dark_gray, 9: blue, 10: green, 11: aqua, 12: red, 13: light_purple, 14: yellow, 15: white"
-		));
-		configMetaData.put("showSymbolInItemTooltip", Arrays.asList(
-			"Whether the max level symbol should be shown in the tooltip when hovering over an item."
-		));
-		configMetaData.put("showSymbolInEnchantmentTable", Arrays.asList(
-			"Whether the max level should be shown when hovering over potential enchantments in the enchantment table."
 		));
 
 		DuskConfig.init(Reference.NAME, Reference.MOD_ID, ConfigHandler.class);
