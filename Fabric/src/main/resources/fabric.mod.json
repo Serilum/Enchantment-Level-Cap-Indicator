@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "enchantmentlevelcapindicator",
+  "version": "1.2",
+
+  "name": "Enchantment Level Cap Indicator",
+  "description": "Displays a symbol next to enchantment levels in item tooltips to indicate the maximum possible level.",
+  "authors": [ "Rick South" ],
+  "contact": {
+    "homepage": "https://serilum.com/mod/enchantment-level-cap-indicator",
+    "sources": "https://github.com/Serilum/Enchantment-Level-Cap-Indicator",
+    "issues": "https://github.com/Serilum/.issue-tracker/labels/Mod:%20Enchantment%20Level%20Cap%20Indicator"
+  },
+
+  "license": "All Right Reserved",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": { "main": [ "com.natamus.enchantmentlevelcapindicator.ModFabric" ], "client": [ "com.natamus.enchantmentlevelcapindicator.ModFabricClient" ], "modmenu": [ "com.natamus.enchantmentlevelcapindicator.fabric.config.IntegrateModMenu" ] },
+  "mixins": [
+    "enchantmentlevelcapindicator.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": ">=1.21",
+    "java": ">=21",
+    "collective": ">=8.4"
+  },
+
+  "custom": {
+    "modmenu": {
+      "links": {
+        "Donate <3" : "https://ricksouth.com/donate"
+      }
+    }
+  },
+
+  "contributors": [
+	  " ",
+	  "Thank you very much to my Membership sponsors for supporting the development of this mod!",
+	  " ",
+	  "If you would like to contribute too, check out https://serilum.com/donate.",
+	  " ",
+	  "Membership sponsors:",
+	  " Alister",
+	  " Andrean Olgo",
+	  " aternosorg",
+	  " Cherriesaurus",
+	  " Michael W. S.",
+	  " t128",
+	  " Tyler Behl",
+	  " XAgent"
+  ]
+}
