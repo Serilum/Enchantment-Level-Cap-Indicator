@@ -1,6 +1,7 @@
 package com.natamus.enchantmentlevelcapindicator.util;
 
 import com.mojang.datafixers.util.Pair;
+import com.natamus.collective.functions.ColourFunctions;
 import com.natamus.collective.functions.NumberFunctions;
 import com.natamus.enchantmentlevelcapindicator.config.ConfigHandler;
 import net.minecraft.ChatFormatting;
@@ -52,7 +53,7 @@ public class Util {
 	}
 
 	public static Component getStarComponent() {
-		ChatFormatting symbolColour = ChatFormatting.getById(ConfigHandler.maxLevelSymbolColourIndex);
+		ChatFormatting symbolColour = ColourFunctions.getById(ConfigHandler.maxLevelSymbolColourIndex);
 		if (symbolColour == null) {
 			symbolColour = ChatFormatting.GOLD;
 		}
