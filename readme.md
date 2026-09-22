@@ -1,5 +1,5 @@
 <h2>Enchantment Level Cap Indicator</h2>
-<p><a href="https://github.com/Serilum/Enchantment-Level-Cap-Indicator"><img src="https://serilum.com/assets/images/logo/enchantment-level-cap-indicator.png"></a></p><h2>Download</h2>
+<p><a href="https://github.com/Serilum/Enchantment-Level-Cap-Indicator"><img src="https://workflow.serilum.com/web/logo/128/enchantment-level-cap-indicator.png" width="100" height="100"></a></p><h2>Download</h2>
 <p>You can download Enchantment Level Cap Indicator on CurseForge and Modrinth:</p><p>&nbsp;&nbsp;CurseForge: &nbsp;&nbsp;<a href="https://curseforge.com/minecraft/mc-mods/enchantment-level-cap-indicator">https://curseforge.com/minecraft/mc-mods/enchantment-level-cap-indicator</a><br>&nbsp;&nbsp;Modrinth: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://modrinth.com/mod/enchantment-level-cap-indicator">https://modrinth.com/mod/enchantment-level-cap-indicator</a></p>
 <h2>Issue Tracker</h2>
 <p>To keep a better overview of all mods, the issue tracker is located in a separate repository.<br>&nbsp;&nbsp;For issues, ideas, suggestions or anything else, please follow this link:</p>
