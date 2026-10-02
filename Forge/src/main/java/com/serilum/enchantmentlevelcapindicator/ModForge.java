@@ -1,9 +1,9 @@
-package com.natamus.enchantmentlevelcapindicator;
+package com.serilum.enchantmentlevelcapindicator;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.enchantmentlevelcapindicator.forge.config.IntegrateForgeConfig;
-import com.natamus.enchantmentlevelcapindicator.util.Reference;
+import com.serilum.enchantmentlevelcapindicator.forge.config.IntegrateForgeConfig;
+import com.serilum.enchantmentlevelcapindicator.util.Reference;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
