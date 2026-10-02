@@ -1,7 +1,7 @@
-package com.natamus.enchantmentlevelcapindicator.config;
+package com.serilum.enchantmentlevelcapindicator.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.enchantmentlevelcapindicator.util.Reference;
+import com.serilum.enchantmentlevelcapindicator.util.Reference;
 
 import java.util.Arrays;
 import java.util.HashMap;

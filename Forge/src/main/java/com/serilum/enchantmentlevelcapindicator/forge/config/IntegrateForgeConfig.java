@@ -1,7 +1,7 @@
-package com.natamus.enchantmentlevelcapindicator.forge.config;
+package com.serilum.enchantmentlevelcapindicator.forge.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.enchantmentlevelcapindicator.util.Reference;
+import com.serilum.enchantmentlevelcapindicator.util.Reference;
 import net.minecraftforge.client.ConfigScreenHandler;
 import net.minecraftforge.fml.ModLoadingContext;
 
