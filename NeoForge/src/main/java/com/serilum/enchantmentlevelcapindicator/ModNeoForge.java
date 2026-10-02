@@ -1,9 +1,9 @@
-package com.natamus.enchantmentlevelcapindicator;
+package com.serilum.enchantmentlevelcapindicator;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.enchantmentlevelcapindicator.neoforge.config.IntegrateNeoForgeConfig;
-import com.natamus.enchantmentlevelcapindicator.util.Reference;
+import com.serilum.enchantmentlevelcapindicator.neoforge.config.IntegrateNeoForgeConfig;
+import com.serilum.enchantmentlevelcapindicator.util.Reference;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModLoadingContext;
 import net.neoforged.fml.common.Mod;

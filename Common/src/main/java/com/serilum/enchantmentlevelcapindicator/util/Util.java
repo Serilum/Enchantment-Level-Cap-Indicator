@@ -1,9 +1,9 @@
-package com.natamus.enchantmentlevelcapindicator.util;
+package com.serilum.enchantmentlevelcapindicator.util;
 
 import com.mojang.datafixers.util.Pair;
 import com.natamus.collective.functions.ColourFunctions;
 import com.natamus.collective.functions.NumberFunctions;
-import com.natamus.enchantmentlevelcapindicator.config.ConfigHandler;
+import com.serilum.enchantmentlevelcapindicator.config.ConfigHandler;
 import net.minecraft.ChatFormatting;
 import net.minecraft.IdentifierException;
 import net.minecraft.core.Registry;
@@ -19,11 +19,11 @@ public class Util {
 	}
 	public static @Nullable Pair<Enchantment, Integer> parseRawComponentText(String rawText, Registry<Enchantment> enchantmentRegistry) {
 		String[] rawEnchSpl = rawText.split("enchantment.");
-        if (rawEnchSpl.length < 2) {
-            return null;
-        }
+		if (rawEnchSpl.length < 2) {
+			return null;
+		}
 
-        String rawEnchantment = rawEnchSpl[1].split("'")[0];
+		String rawEnchantment = rawEnchSpl[1].split("'")[0];
 
 		Identifier enchantmentIdentifier;
 		try {
@@ -44,10 +44,10 @@ public class Util {
 			level = Integer.parseInt(rawEnchantmentLevel);
 		}
 
-        Enchantment enchantment = enchantmentRegistry.getValue(enchantmentIdentifier);
-        if (enchantment == null) {
-            return null;
-        }
+		Enchantment enchantment = enchantmentRegistry.getValue(enchantmentIdentifier);
+		if (enchantment == null) {
+			return null;
+		}
 
 		return Pair.of(enchantment, level);
 	}

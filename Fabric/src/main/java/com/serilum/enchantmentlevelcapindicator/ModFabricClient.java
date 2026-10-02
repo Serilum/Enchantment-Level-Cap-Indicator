@@ -1,7 +1,7 @@
-package com.natamus.enchantmentlevelcapindicator;
+package com.serilum.enchantmentlevelcapindicator;
 
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.enchantmentlevelcapindicator.util.Reference;
+import com.serilum.enchantmentlevelcapindicator.util.Reference;
 import net.fabricmc.api.ClientModInitializer;
 
 public class ModFabricClient implements ClientModInitializer {
