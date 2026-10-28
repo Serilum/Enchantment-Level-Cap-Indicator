@@ -1,6 +1,6 @@
-package com.natamus.enchantmentlevelcapindicator;
+package com.serilum.enchantmentlevelcapindicator;
 
-import com.natamus.enchantmentlevelcapindicator.config.ConfigHandler;
+import com.serilum.enchantmentlevelcapindicator.config.ConfigHandler;
 
 public class ModCommon {
 
